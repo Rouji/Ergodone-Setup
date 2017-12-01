@@ -42,7 +42,8 @@ All valid values for keys are listed on https://tkg.io/#help
 
 When you're done, copy the **Raw data** and save it somewhere in a file 
 (so you don't have to redo all of it later, when you want to change something).  
-Do **NOT** use the **Download JSON** button for that, as tkq.io doesn't like the JSON format of that. 
+Do **NOT** use the **Download JSON** button for that, as tkq.io doesn't like the JSON format of that.  
+Also saving your layouts as .png (top right **Download** menu) as a reference might be really useful while getting used to using them.
 
 Paste your layout(s) into https://tkg.io/ (one layout per layer, if you want more than one).  
 Filled in with my two-layer layout: 
@@ -51,10 +52,8 @@ It'll automatically do some checking and tell you, if anything's wrong with your
 If everything's correct, the **Download .eep file** button should become clickable. 
 Click that, and save the **.eep** somewhere. 
 
-Also, saving your layouts as .png (top right **Download** menu) as a reference might be really useful while getting used to using them.
-
 ## Flashing .eep Files
-Flashing .eep files works similar to flashing a firmware, but with a different keyboard mode, 
+Flashing .eep files works similarly to flashing a firmware, but with a different keyboard mode, 
 and you need to specify the path to your .eep:
 ```bash
 sudo ./reflash.sh /path/to/your/keymap.eep
